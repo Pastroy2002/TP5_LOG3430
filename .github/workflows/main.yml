@@ -30,4 +30,4 @@ jobs:
           sleep 30
       - name: Run Locust load tests
         run: |
-          locust -f locustfile.py --headless -u 10 000 -r 100 --run-time 2m --host=http://127.0.0.1:5000
+          locust -f locustfile.py --headless -u 10 000 -r 100 --run-time 2m --host=http://10.1.0.42:5000
